@@ -41,4 +41,20 @@ public class BabysitterTest {
 
 	}
 
+	@Test
+	public void CalculateBedtimetoMidnight() {
+
+		int pay2 = underTest.CalculateBedtimetoMidnight();
+		assertEquals(24, pay2);
+
+	}
+
+	@Test
+	public void CalculateMidnighttoStoptime() {
+
+		int pay3 = underTest.CalculateMidnighttoStoptime();
+		assertEquals(64, pay3);
+
+	}
+
 }
