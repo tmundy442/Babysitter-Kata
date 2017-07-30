@@ -33,4 +33,12 @@ public class BabysitterTest {
 
 	}
 
+	@Test
+	public void CalculateStarttimetoBedtime() {
+
+		int pay1 = underTest.CalculateStarttimetoBedtime();
+		assertEquals(48, pay1);
+
+	}
+
 }

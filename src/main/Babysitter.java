@@ -21,4 +21,9 @@ public class Babysitter {
 		return 2100;
 	}
 
+	public int CalculateStarttimetoBedtime() {
+		int pay1 = (((2100 - 1700) * 12) / 100);
+		return pay1;
+	}
+
 }
