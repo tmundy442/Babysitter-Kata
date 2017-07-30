@@ -36,4 +36,13 @@ public class Babysitter {
 		return pay3;
 	}
 
+	public int GetTotal() {
+		int pay1 = CalculateStarttimetoBedtime();
+		int pay2 = CalculateBedtimetoMidnight();
+		int pay3 = CalculateMidnighttoStoptime();
+
+		int total = pay1 + pay2 + pay3;
+		return total;
+	}
+
 }

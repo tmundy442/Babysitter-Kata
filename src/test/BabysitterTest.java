@@ -57,4 +57,12 @@ public class BabysitterTest {
 
 	}
 
+	@Test
+	public void GetTotal() {
+
+		int total = underTest.GetTotal();
+		assertEquals(136, total);
+
+	}
+
 }
