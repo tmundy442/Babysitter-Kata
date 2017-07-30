@@ -17,4 +17,20 @@ public class BabysitterTest {
 
 	}
 
+	@Test
+	public void GetStopTime() {
+
+		int stopTime = underTest.stopTime();
+		assertEquals(400, stopTime);
+
+	}
+
+	@Test
+	public void GetBedTime() {
+
+		int bedTime = underTest.bedTime();
+		assertEquals(2100, bedTime);
+
+	}
+
 }

@@ -11,4 +11,14 @@ public class Babysitter {
 		return 1700;
 	}
 
+	public int stopTime() {
+
+		return 400;
+	}
+
+	public int bedTime() {
+
+		return 2100;
+	}
+
 }
